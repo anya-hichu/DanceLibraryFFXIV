@@ -6,316 +6,316 @@ namespace DanceLibraryFFXIV;
 public static class EmoteData
 {
     public static readonly IReadOnlyDictionary<string, string> DanceEmotes = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
-  {
     {
-      "/dance",
-      "Dance"
-    },
-    {
-      "/stepdance",
-      "Step Dance"
-    },
-    {
-      "/harvestdance",
-      "Harvest Dance"
-    },
-    {
-      "/hdance",
-      "Harvest Dance"
-    },
-    {
-      "/balldance",
-      "Ball Dance"
-    },
-    {
-      "/mdance",
-      "Manderville Dance"
-    },
-    {
-      "/mandervilledance",
-      "Manderville Dance"
-    },
-    {
-      "/mmambo",
-      "Manderville Mambo"
-    },
-    {
-      "/mandervillemambo",
-      "Manderville Mambo"
-    },
-    {
-      "/sundropdance",
-      "Sundrop Dance"
-    },
-    {
-      "/sundance",
-      "Sundrop Dance"
-    },
-    {
-      "/mogdance",
-      "Moogle Dance"
-    },
-    {
-      "/moonlift",
-      "Moonlift Dance"
-    },
-    {
-      "/yoldance",
-      "Yol Dance"
-    },
-    {
-      "/lalihop",
-      "Lali Hop"
-    },
-    {
-      "/laliho",
-      "Lali Hop"
-    },
-    {
-      "/lophop",
-      "Lop Hop"
-    },
-    {
-      "/thavdance",
-      "Thavnairian Dance"
-    },
-    {
-      "/tdance",
-      "Thavnairian Dance"
-    },
-    {
-      "/golddance",
-      "Gold Dance"
-    },
-    {
-      "/gdance",
-      "Gold Dance"
-    },
-    {
-      "/beesknees",
-      "Bee's Knees"
-    },
-    {
-      "/bees knees",
-      "Bee's Knees"
-    },
-    {
-      "/songbird",
-      "Songbird"
-    },
-    {
-      "/edance",
-      "Eastern Dance"
-    },
-    {
-      "/easterndance",
-      "Eastern Dance"
-    },
-    {
-      "/bombdance",
-      "Bomb Dance"
-    },
-    {
-      "/boxstep",
-      "Box Step"
-    },
-    {
-      "/sidestep",
-      "Side Step"
-    },
-    {
-      "/getfantasy",
-      "Get Fantasy"
-    },
-    {
-      "/popotostep",
-      "Popoto Step"
-    },
-    {
-      "/sabotender",
-      "Senor Sabotender"
-    },
-    {
-      "/heeltoe",
-      "Heel Toe"
-    },
-    {
-      "/goobbuedo",
-      "Goobbue Do"
-    },
-    {
-      "/mysterymachine",
-      "Goobbue Do"
-    },
-    {
-      "/flamedance",
-      "Flame Dance"
-    },
-    {
-      "/ladance",
-      "Little Ladies' Dance"
-    },
-    {
-      "/littleladiesdance",
-      "Little Ladies' Dance"
-    },
-    {
-      "/crimsonlotus",
-      "Crimson Lotus"
-    },
-    {
-      "/uchiwasshoi",
-      "Uchiwasshoi"
-    },
-    {
-      "/wasshoi",
-      "Wasshoi"
-    },
-    {
-      "/paintblack",
-      "Paint It Black"
-    },
-    {
-      "/paintblue",
-      "Paint It Blue"
-    },
-    {
-      "/paintred",
-      "Paint It Red"
-    },
-    {
-      "/paintyellow",
-      "Paint It Yellow"
-    }
-  };
+        {
+          "/dance",
+          "Dance"
+        },
+        {
+          "/stepdance",
+          "Step Dance"
+        },
+        {
+          "/harvestdance",
+          "Harvest Dance"
+        },
+        {
+          "/hdance",
+          "Harvest Dance"
+        },
+        {
+          "/balldance",
+          "Ball Dance"
+        },
+        {
+          "/mdance",
+          "Manderville Dance"
+        },
+        {
+          "/mandervilledance",
+          "Manderville Dance"
+        },
+        {
+          "/mmambo",
+          "Manderville Mambo"
+        },
+        {
+          "/mandervillemambo",
+          "Manderville Mambo"
+        },
+        {
+          "/sundropdance",
+          "Sundrop Dance"
+        },
+        {
+          "/sundance",
+          "Sundrop Dance"
+        },
+        {
+          "/mogdance",
+          "Moogle Dance"
+        },
+        {
+          "/moonlift",
+          "Moonlift Dance"
+        },
+        {
+          "/yoldance",
+          "Yol Dance"
+        },
+        {
+          "/lalihop",
+          "Lali Hop"
+        },
+        {
+          "/laliho",
+          "Lali Hop"
+        },
+        {
+          "/lophop",
+          "Lop Hop"
+        },
+        {
+          "/thavdance",
+          "Thavnairian Dance"
+        },
+        {
+          "/tdance",
+          "Thavnairian Dance"
+        },
+        {
+          "/golddance",
+          "Gold Dance"
+        },
+        {
+          "/gdance",
+          "Gold Dance"
+        },
+        {
+          "/beesknees",
+          "Bee's Knees"
+        },
+        {
+          "/bees knees",
+          "Bee's Knees"
+        },
+        {
+          "/songbird",
+          "Songbird"
+        },
+        {
+          "/edance",
+          "Eastern Dance"
+        },
+        {
+          "/easterndance",
+          "Eastern Dance"
+        },
+        {
+          "/bombdance",
+          "Bomb Dance"
+        },
+        {
+          "/boxstep",
+          "Box Step"
+        },
+        {
+          "/sidestep",
+          "Side Step"
+        },
+        {
+          "/getfantasy",
+          "Get Fantasy"
+        },
+        {
+          "/popotostep",
+          "Popoto Step"
+        },
+        {
+          "/sabotender",
+          "Senor Sabotender"
+        },
+        {
+          "/heeltoe",
+          "Heel Toe"
+        },
+        {
+          "/goobbuedo",
+          "Goobbue Do"
+        },
+        {
+          "/mysterymachine",
+          "Goobbue Do"
+        },
+        {
+          "/flamedance",
+          "Flame Dance"
+        },
+        {
+          "/ladance",
+          "Little Ladies' Dance"
+        },
+        {
+          "/littleladiesdance",
+          "Little Ladies' Dance"
+        },
+        {
+          "/crimsonlotus",
+          "Crimson Lotus"
+        },
+        {
+          "/uchiwasshoi",
+          "Uchiwasshoi"
+        },
+        {
+          "/wasshoi",
+          "Wasshoi"
+        },
+        {
+          "/paintblack",
+          "Paint It Black"
+        },
+        {
+          "/paintblue",
+          "Paint It Blue"
+        },
+        {
+          "/paintred",
+          "Paint It Red"
+        },
+        {
+          "/paintyellow",
+          "Paint It Yellow"
+        }
+    };
 
     public static readonly IReadOnlyDictionary<string, string> GameCommandOverrides = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
-  {
     {
-      "/thavnairian dance",
-      "/tdance"
-    },
-    {
-      "/sit on ground",
-      "/groundsit"
-    },
-    {
-      "/paint it black",
-      "/paintblack"
-    },
-    {
-      "/paint it blue",
-      "/paintblue"
-    },
-    {
-      "/paint it red",
-      "/paintred"
-    },
-    {
-      "/paint it yellow",
-      "/paintyellow"
-    },
-    {
-      "/bee's knees",
-      "/beesknees"
-    },
-    {
-      "/push-ups",
-      "/pushups"
-    },
-    {
-      "/sit-ups",
-      "/situps"
-    },
-    {
-      "/greeting",
-      "/greet"
-    },
-    {
-      "/confused",
-      "/disturbed"
-    },
-    {
-      "/cheer wave: yellow",
-      "/cheerwy"
-    },
-    {
-      "/cheerwave: yellow",
-      "/cheerwy"
-    },
-    {
-      "/cheerwave:yellow",
-      "/cheerwy"
-    },
-    {
-      "/cheer wave: violet",
-      "/cheerwv"
-    },
-    {
-      "/cheerwave: violet",
-      "/cheerwv"
-    },
-    {
-      "/cheerwave:violet",
-      "/cheerwv"
-    },
-    {
-      "/cheer on: bright",
-      "/cheerow"
-    },
-    {
-      "/cheeron: bright",
-      "/cheerow"
-    },
-    {
-      "/cheeron:bright",
-      "/cheerow"
-    },
-    {
-      "/cheer on: blue",
-      "/cheerob"
-    },
-    {
-      "/cheeron: blue",
-      "/cheerob"
-    },
-    {
-      "/cheeron:blue",
-      "/cheerob"
-    },
-    {
-      "/cheer jump: green",
-      "/cheerjg"
-    },
-    {
-      "/cheerjump: green",
-      "/cheerjg"
-    },
-    {
-      "/cheer jump:green",
-      "/cheerjg"
-    },
-    {
-      "/cheerjump:green",
-      "/cheerjg"
-    },
-    {
-      "/cheer jump: red",
-      "/cheerjr"
-    },
-    {
-      "/cheerjump: red",
-      "/cheerjr"
-    },
-    {
-      "/cheer jump:red",
-      "/cheerjr"
-    },
-    {
-      "/cheerjump:red",
-      "/cheerjr"
-    }
-  };
+        {
+            "/thavnairian dance",
+            "/tdance"
+        },
+        {
+            "/sit on ground",
+            "/groundsit"
+        },
+        {
+            "/paint it black",
+            "/paintblack"
+        },
+        {
+            "/paint it blue",
+            "/paintblue"
+        },
+        {
+            "/paint it red",
+            "/paintred"
+        },
+        {
+            "/paint it yellow",
+            "/paintyellow"
+        },
+        {
+            "/bee's knees",
+            "/beesknees"
+        },
+        {
+            "/push-ups",
+            "/pushups"
+        },
+        {
+            "/sit-ups",
+            "/situps"
+        },
+        {
+            "/greeting",
+            "/greet"
+        },
+        {
+            "/confused",
+            "/disturbed"
+        },
+        {
+            "/cheer wave: yellow",
+            "/cheerwy"
+        },
+        {
+            "/cheerwave: yellow",
+            "/cheerwy"
+        },
+        {
+            "/cheerwave:yellow",
+            "/cheerwy"
+        },
+        {
+            "/cheer wave: violet",
+            "/cheerwv"
+        },
+        {
+            "/cheerwave: violet",
+            "/cheerwv"
+        },
+        {
+            "/cheerwave:violet",
+            "/cheerwv"
+        },
+        {
+            "/cheer on: bright",
+            "/cheerow"
+        },
+        {
+            "/cheeron: bright",
+            "/cheerow"
+        },
+        {
+            "/cheeron:bright",
+            "/cheerow"
+        },
+        {
+            "/cheer on: blue",
+            "/cheerob"
+        },
+        {
+            "/cheeron: blue",
+            "/cheerob"
+        },
+        {
+            "/cheeron:blue",
+            "/cheerob"
+        },
+        {
+            "/cheer jump: green",
+            "/cheerjg"
+        },
+        {
+            "/cheerjump: green",
+            "/cheerjg"
+        },
+        {
+            "/cheer jump:green",
+            "/cheerjg"
+        },
+        {
+            "/cheerjump:green",
+            "/cheerjg"
+        },
+        {
+            "/cheer jump: red",
+            "/cheerjr"
+        },
+        {
+            "/cheerjump: red",
+            "/cheerjr"
+        },
+        {
+            "/cheer jump:red",
+            "/cheerjr"
+        },
+        {
+            "/cheerjump:red",
+            "/cheerjr"
+        }
+    };
 
     public static bool IsDance(string command)
     {

@@ -37,19 +37,21 @@ public sealed class Plugin : IDalamudPlugin, IDisposable
             configuration = new Configuration();
 
         config = configuration;
+
         penumbraIpc = new PenumbraIpc(PluginInterface, Log);
-        chatSender = new ChatSender(Plugin.Log);
+        chatSender = new ChatSender(Log);
         scanner = new ModScanner(penumbraIpc, Log);
         settingsWindow = new ModSettingsWindow(config, penumbraIpc, Log);
         mainWindow = new MainWindow(config, scanner, penumbraIpc, chatSender, settingsWindow, Framework, Log);
-        PluginInterface.UiBuilder.Draw += new Action(OnDraw);
-        PluginInterface.UiBuilder.OpenMainUi += new Action(OnOpenMainUi);
-        PluginInterface.UiBuilder.OpenConfigUi += new Action(OnOpenMainUi);
-        CommandManager.AddHandler("/dl", new CommandInfo(new IReadOnlyCommandInfo.HandlerDelegate(OnCommand))
+
+        PluginInterface.UiBuilder.Draw += OnDraw;
+        PluginInterface.UiBuilder.OpenMainUi += OnOpenMainUi;
+        PluginInterface.UiBuilder.OpenConfigUi += OnOpenMainUi;
+        CommandManager.AddHandler("/dl", new CommandInfo(OnCommand)
         {
             HelpMessage = "Toggle the Dance Library window (/dl or /dancelibrary)"
         });
-        CommandManager.AddHandler("/dancelibrary", new CommandInfo(new IReadOnlyCommandInfo.HandlerDelegate(OnCommand))
+        CommandManager.AddHandler("/dancelibrary", new CommandInfo(OnCommand)
         {
             HelpMessage = "Toggle the Dance Library window (/dl or /dancelibrary)"
         });
@@ -60,9 +62,9 @@ public sealed class Plugin : IDalamudPlugin, IDisposable
     {
         CommandManager.RemoveHandler("/dl");
         CommandManager.RemoveHandler("/dancelibrary");
-        PluginInterface.UiBuilder.Draw -= new Action(OnDraw);
-        PluginInterface.UiBuilder.OpenMainUi -= new Action(OnOpenMainUi);
-        PluginInterface.UiBuilder.OpenConfigUi -= new Action(OnOpenMainUi);
+        PluginInterface.UiBuilder.Draw -= OnDraw;
+        PluginInterface.UiBuilder.OpenMainUi -= OnOpenMainUi;
+        PluginInterface.UiBuilder.OpenConfigUi -= OnOpenMainUi;
         mainWindow.Dispose();
         settingsWindow.Dispose();
         penumbraIpc.Dispose();
