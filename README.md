@@ -1,4 +1,4 @@
 
 # DanceLibraryFFXIV
 
-Decompilation of deleted plugin
+Decompilation of https://github.com/Sansflaire/DanceLibraryFFXIV since deleted
